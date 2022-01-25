@@ -1,0 +1,33 @@
+{
+  "name": "rest-api-crud",
+  "version": "1.0.0",
+  "description": "REST API CRUD project for better understanding HTTP requests and Responses",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BagratS/rest-api-crud.git"
+  },
+  "keywords": [
+    "REST",
+    "CRUD",
+    "API"
+  ],
+  "author": "Bagrat Sargsyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BagratS/rest-api-crud/issues"
+  },
+  "homepage": "https://github.com/BagratS/rest-api-crud#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "crossenv": "^0.0.2-security",
+    "dotenv": "^14.3.0",
+    "eslint": "^8.7.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
